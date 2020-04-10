@@ -1,13 +1,30 @@
-body{
-  background:#efefef
+
+header{
+  display: flex;
 }
 
-section{
+
+
+body{background-image:linear-gradient(90deg,orange,purple);
+
+}
+
+#projects{
   border-bottom: #D2D2D2 2px solid;
   min-height: 98vh;
-  }
+  display: grid;
+grid-template: 10% auto;
+grid-row: 10px;
+grid-template-columns: auto;}
 
-figure {margin-bottom: 1em;}
+.projects-feature figure {text-align: center;
+height: 500px;
+width:600px;
+  margin-bottom: 1em;
+margin-left:1em;
+margin-right:1em;
+margin-top:1em;
+}
 
 
 
@@ -19,7 +36,9 @@ justify-content: space-around;
 
 
 .projects-feature {
-border: 2px solid #000;
+border-color: blue;
+border-width: 2px;
+border-style: groove;
 margin:1em;
 padding:1em;
 flex-basis: 320px;
@@ -49,7 +68,6 @@ z-index: 999;}
 #main-menu ol a {
   display: block;
   color:rgba(0, 0,0,1);
-  background: rgba(255, 247, 98, 0.5);
   padding: 1em;
   margin-bottom: 1px;
 }
@@ -87,7 +105,56 @@ padding: 2em;}
 
 #main-menu ol {
   display: flex;
-  justify-content:flex-end;
+  justify-content:;
   width:840px;
   margin:0 auto;
+}
+
+.illu_1{
+  height:500px;
+  width: 500px;
+}
+
+.illu_2{
+  height: 500px;
+  width: 600px;
+}
+
+
+.illu_3{
+  height: 500px;
+}
+
+
+.illu_4{
+  height: 500px;
+}
+
+.illu_5{
+  height: 500px;
+}
+
+.illu_6{
+  height: 500px;
+  width: 600px;
+}
+
+.illu_7{
+height: 500px;
+
+}
+
+.illu_8{
+  height: 500px;
+}
+
+.typo_1{
+  height: 500px;
+}
+
+.typo_2{ height: 500px;
+  width: 600px;
+}
+#about{
+  min-height: 98vh;
 }
